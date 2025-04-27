@@ -1,0 +1,1 @@
+O problema é que o valor do contador nunca é alterado dentro do loop, ou seja, o contador permanece sempre igual a 0, e a condição contador < 10 continuará sendo verdadeira para sempre. Resultado: um loop infinito, que consome os recursos do sistema sem parar e faz o programa travar.
